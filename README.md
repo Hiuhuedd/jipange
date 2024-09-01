@@ -2,7 +2,7 @@
 
 # Jipange App
 
-![Jipange App Design](path_to_your_image_here)
+![Jipange App Design](https://hiuhuedd/github.com/jipange/original-17329f61e60d5ddc0316a1aae02b163d (1).png)
 
 Jipange is a mobile application designed to help users manage and organize their daily tasks and events. The app features an intuitive interface that allows users to plan their schedules efficiently, with features to set goals, track progress, and get reminders for upcoming events.
 
