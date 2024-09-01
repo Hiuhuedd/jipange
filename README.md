@@ -1,8 +1,8 @@
 
 
 # Jipange App
+<img src="https://github.com/Hiuhuedd/jipange/blob/main/original-17329f61e60d5ddc0316a1aae02b163d (1 been).png/>
 
-![Jipange App Design](https://hiuhuedd/github.com/jipange/original-17329f61e60d5ddc0316a1aae02b163d (1).png)
 
 Jipange is a mobile application designed to help users manage and organize their daily tasks and events. The app features an intuitive interface that allows users to plan their schedules efficiently, with features to set goals, track progress, and get reminders for upcoming events.
 
@@ -18,7 +18,7 @@ Jipange is a mobile application designed to help users manage and organize their
 
 - **Frontend**: React Native with custom components for a smooth and responsive user interface.
 - **Backend**: Firebase for authentication and real-time database management.
-- **State Management**: Redux for managing the application state.
+- **State Management**: Redux for managing the application state
 
 ## Installation and Running Instructions
 
