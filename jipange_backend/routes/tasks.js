@@ -16,4 +16,22 @@ router.post('/', async (req, res) => {
   }
 });
 
+// Get all tasks for a specific goal
+router.get('/:goalId', async (req, res) => {
+  const { goalId } = req.params;
+
+  try {
+    // Find all tasks with the given goalId
+    const tasks = await Task.find({ goalId });
+
+    // Return the tasks in the response
+    res.json(tasks);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+module.exports = router;
+
+
 module.exports = router;
