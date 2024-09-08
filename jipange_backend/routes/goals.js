@@ -25,5 +25,20 @@ router.get('/:userId', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+// Delete a goal by ID
+router.delete('/:goalId', async (req, res) => {
+  try {
+    const { goalId } = req.params;
+    const deletedGoal = await Goal.findByIdAndDelete(goalId);
+
+    if (!deletedGoal) {
+      return res.status(404).json({ error: 'Goal not found' });
+    }
+
+    res.json({ message: 'Goal deleted successfully', deletedGoal });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
 
 module.exports = router;
